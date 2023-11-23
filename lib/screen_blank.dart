@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'the_drawer.dart';
 
 class ScreenBlank extends StatefulWidget {
-
   const ScreenBlank({super.key});
 
   @override
@@ -10,7 +9,6 @@ class ScreenBlank extends StatefulWidget {
 }
 
 class _ScreenBlankState extends State<ScreenBlank> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

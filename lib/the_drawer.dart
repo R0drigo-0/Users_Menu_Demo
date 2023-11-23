@@ -30,9 +30,10 @@ class TheDrawer {
             onTap: () {
               Navigator.of(context).pop(); // close drawer
               Navigator.of(context).push(MaterialPageRoute<void>(
-                builder: (context) => ScreenListGroups(userGroups: Data.userGroups),
+                builder: (context) =>
+                    ScreenListGroups(userGroups: Data.userGroups),
               ));
-              },
+            },
           ),
           ListTile(
             leading: const Icon(Icons.favorite),
