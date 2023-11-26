@@ -82,7 +82,7 @@ class ScreenGroup extends StatelessWidget {
     // TODO: implement build
     return Scaffold(
         appBar: AppBar(
-          title: Text("Group employees"),
+          title: Text("Group ${userGroup.name}"),
           backgroundColor: Theme.of(context).colorScheme.primary,
           foregroundColor: Theme.of(context).colorScheme.onPrimary,
         ),
